@@ -1,0 +1,32 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  .rectangle {
+  display: flex;
+  align-items: flex-start;  /* прижать к верху */
+  justify-content: space-around; /* прижать к левому краю */
+  width: 320px;
+  height: 1024px;
+  background: #ffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 10px 10px 20px rgba(238, 145, 145, 0.5);
+  padding: 0 20px;
+}
+.icon__left,
+.icon__right {
+   width: 40px; 
+   height: 40px; 
+  }
+.logo {
+    width: 96.55px;
+    height: 50.81;
+    top: 18.73px;
+    left: 80.73px;
+    border: 0.5px;
+}
