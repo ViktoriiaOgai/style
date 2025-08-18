@@ -7,8 +7,8 @@
   }
   .rectangle {
   display: flex;
-  align-items: flex-start;  /* прижать к верху */
-  justify-content: space-around; /* прижать к левому краю */
+  align-items: flex-start;  
+  justify-content: space-around;
   width: 320px;
   height: 1024px;
   background: #ffff;
@@ -17,6 +17,19 @@
   left: 0;
   box-shadow: 10px 10px 20px rgba(238, 145, 145, 0.5);
   padding: 0 20px;
+}
+.rectangle2 {
+  display: flex;
+  align-items: flex-start;  
+  justify-content:flex-start;
+  flex-direction: column;
+  width: 222px;
+  height: 876px;
+  background: #ffff;
+  position: absolute;
+  left: 0;
+  top: 116px;
+   padding: 0 20px;
 }
 .icon__left,
 .icon__right {
@@ -30,3 +43,34 @@
     left: 80.73px;
     border: 0.5px;
 }
+.menu {
+  display: flex;
+  align-items:flex-start;
+  flex-direction: column;
+  margin-top:0;
+  padding-left: 0;
+}
+.menu__item {
+  display: flex;
+  align-items:flex-end;
+  gap: 8px;
+  margin-left: 0;
+}
+.menu__icon {
+  width: 4px;
+  height: 32px;
+  }
+  .menu__text {
+    width: 120px;
+    height: 24px;
+    top: 120px;
+    size: 16px;
+    color: #7e7e82;
+  }
+  .menu__text1 {
+   margin-top: 30px;
+    height: 24px;
+    top: 120px;
+    size: 16px;
+    color: #020202;
+  }
