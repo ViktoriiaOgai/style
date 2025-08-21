@@ -37,7 +37,7 @@
    height: 40px; 
    margin-top: 10px;
   }
-.logo {
+  .logo {
     width: 96.55px;
     height: 50.81;
     top: 18.73px;
@@ -76,25 +76,25 @@
   }
   .menu__text1 {
    margin-top: 30px;
-    height: 24px;
-    top: 120px;
-    size: 16px;
-    color: #020202;
-    padding: 20px;
-  flex: 0 0 auto;
-  padding: 5px 16px;
-  border-radius: 5px;
-  border: 1px solid transparent;
-  background-color: #ffff;
-  font-size: 14px;
-  white-space: nowrap;
-  cursor: pointer;
-  transition: 0.3s;
+   height: 24px;
+   top: 120px;
+   color: #020202;
+   padding: 20px;
+   flex: 0 0 auto;
+   padding: 5px 16px;
+   border-radius: 5px;
+   border: 1px solid transparent;
+   background-color: #ffff;
+   font-size: 14px;
+   white-space: nowrap;
+   cursor: pointer;
+   transition: 0.3s;
 }
 .menu__text1:hover {
-   background-color: #fff;
-  border: 2px solid #41f6d7;
-  font-weight: 500;
+ background-color: #8f8e8e;
+  color: #000; 
+  border: 2px solid #2d2e2e;
+  font-weight: 100;
 }
 .menu__text1--active--true {
   background-color: #fff;
@@ -104,5 +104,68 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 100%;
+}
+.foot {
+  padding: 0 20px;
+  margin-top: auto;
+  display: flex;
+  align-items: flex-start;  
+  justify-content:space-between;
+  flex-direction: row;
+  background: #fff;
+  gap: 20px;
+}
+.icon__foot {
+   width: 40px; 
+   height: 40px;  
+     }
+.foot__mail {
+  font-size: 16px; 
+  color: black;
+  padding: 0 20px;
+  margin-top: 20px;
+}   
+.foot__tel {
+  font-size: 28px; 
+  font-weight: bolder;
+  color: black;
+  padding: 0 20px;
+  margin-top: 20px;
+}       
+.foot__lang {
+  margin-top: 30px; 
+  padding: 0 20px;
+}
+.contact {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.contact__text {
+   color: #020202;
+   padding: 2px 5px;
+   flex: 0 0 auto;
+   border-radius: 5px;
+   border: 1px solid transparent;
+   background-color: #ffff;
+   font-size: 14px;
+   white-space: nowrap;
+   cursor: pointer;
+   transition: 0.3s;
+}
+.contact__text:hover {
+  background-color: #8f8e8e;
+  color: #000; 
+  border: 2px solid #2d2e2e;
+  font-weight: 100;
+}
+.contact__text--active--true {
+  background-color: #fff;
+  border:none;
+  font-weight: 100;
+  color: #636060;
 }
